@@ -1,5 +1,5 @@
 import { Section } from "../layout/Section";
-import { TeamCard } from "../team/teamCard";
+import { TeamCard } from "../team/TeamCard";
 
 const Team = () => (
   <Section>
