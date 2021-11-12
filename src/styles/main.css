@@ -1,5 +1,43 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thaana:wght@100;200;300;400;500;600;700;800;900&display=kswap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Noto+Sans+Thaana:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
+
+/* @font-face {
+  font-family: FaagathiNeon;
+  font-weight: 200;
+  src: url('/assets/fonts/faagathineon/FaagathiNeon-Light.ttf') format("ttf");
+
+};
+@font-face {
+  font-family: FaagathiNeon;
+  font-weight: 400;
+  src: url('/assets/fonts/faagathineon/FaagathiNeon-Regular.ttf') format("ttf");
+}; */
+
+@layer base {
+  @font-face {
+    font-family: FaagathiNeon;
+    font-weight: 900;
+    src: url("/assets/fonts/faagathineon/FaagathiNeon-Light.ttf") format('truetype');
+
+  }
+  @font-face {
+    font-family: FaagathiNeon;
+    font-weight: 500;
+    src: url("/assets/fonts/faagathineon/FaagathiNeon-Regular.ttf") format('truetype');
+  }
+  @font-face {
+    font-family: Hawwa;
+    src: url("/assets/fonts/hawwa/Hawwa-Regular.ttf") format('truetype');
+  }
+
+  @font-face {
+    font-family: Theras;
+    src: url("/assets/fonts/theras/Theras-Regular.ttf") format('truetype');
+  }
+};

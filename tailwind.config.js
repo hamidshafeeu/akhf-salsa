@@ -44,9 +44,19 @@ module.exports = {
           akhdark: '#009245'
         },
       },
+      fontFamily: {
+        noto: "'Noto Sans Thaana', san-serif",
+        lato: "'Lato', san-serif",
+        faagathineon: "FaagathiNeon",
+        theras: "Theras",
+        hawwa: "Hawwa"
+      },
       lineHeight: {
         hero: '4.5rem',
       },
+      backgroundImage: {
+        'hero-pattern': "url('/assets/images/bank-note.svg')",
+      }
     },
   },
   variants: {},

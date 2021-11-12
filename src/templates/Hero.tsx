@@ -1,46 +1,40 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-import { Background } from '../background/Background';
-import { Button } from '../button/Button';
-import { HeroOneButton } from '../hero/HeroOneButton';
-import { Section } from '../layout/Section';
-import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
-import { Logo } from './Logo';
+import { Background } from "../background/Background";
+import { HeroOneButton } from "../hero/HeroOneButton";
+import { Section } from "../layout/Section";
+import { NavbarTwoColumns } from "../navigation/NavbarTwoColumns";
+import { Logo } from "./Logo";
 
 const Hero = () => (
-  <Background color="bg-green-akh">
-    <Section yPadding="py-6">
+  <Background color="bg-opacity-10 bg-gradient-to-b from-green-akhdark to-green-akh">
+    <Section yPadding="py-6 p-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            <a>GitHub</a>
+          <Link href="/">
+            <a>Us</a>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/">
             <a>Sign in</a>
           </Link>
-        </li>
+        </li> */}
       </NavbarTwoColumns>
     </Section>
 
-    <Section yPadding="pt-20 pb-32">
+    <Section yPadding="pt-5 pb-5 p-6">
       <HeroOneButton
         title={
           <>
-  
-            {'The modern landing page for\n'}
-            <span className="text-gray-200">React developers</span>
+            {/* {'The modern landing page for\n'} */}
+            <span className="font-bold text-gray-200">Unite & Care</span>
+            {/* <img src="/assets/images/Logos-03.png" className=" w-1/4"/> */}
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
-        button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <a>
-              <Button xl>Download Your Free Theme</Button>
-            </a>
-          </Link>
-        }
+        description="an aware and self-sufficient society that is based on moral values and good conduct"
+        image="/assets/images/Logos-09.png"
+        imageAlt="Second feature alt text"
       />
     </Section>
   </Background>

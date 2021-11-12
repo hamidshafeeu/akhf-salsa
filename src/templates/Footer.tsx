@@ -1,12 +1,12 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-import { Background } from '../background/Background';
-import { CenteredFooter } from '../footer/CenteredFooter';
-import { Section } from '../layout/Section';
-import { Logo } from './Logo';
+import { Background } from "../background/Background";
+import { CenteredFooter } from "../footer/CenteredFooter";
+import { Section } from "../layout/Section";
+import { Logo } from "./Logo";
 
 const Footer = () => (
-  <Background color="bg-gray-100">
+  <Background color="bg-gradient-to-br from-gray-600 to-green-akhdark">
     <Section>
       <CenteredFooter
         logo={<Logo />}
@@ -82,14 +82,14 @@ const Footer = () => (
         </li>
         <li>
           <Link href="/">
-            <a>Docs</a>
+            <a>News</a>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
             <a>GitHub</a>
           </Link>
-        </li>
+        </li> */}
       </CenteredFooter>
     </Section>
   </Background>
