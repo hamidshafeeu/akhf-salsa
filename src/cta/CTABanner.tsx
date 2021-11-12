@@ -6,7 +6,7 @@ type ICTABannerProps = {
   button: ReactNode;
 };
 
-const CTABanner = (props: ICTABannerProps) => (
+const CTABanner = () => (
   <div className="text-center flex flex-col p-4 sm:text-right sm:flex-row sm:items-center sm:justify-between sm:p-12 rounded-md">
     <div className="gap-16 mb-16 text-center lg:grid-cols-3">
       <div className="flex items-center justify-center">
