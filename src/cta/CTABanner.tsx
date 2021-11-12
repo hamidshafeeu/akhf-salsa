@@ -1,10 +1,10 @@
-import React, { ReactNode } from "react";
+import React from "react";
 
-type ICTABannerProps = {
-  title: string;
-  subtitle: string;
-  button: ReactNode;
-};
+// type ICTABannerProps = {
+//   title: string;
+//   subtitle: string;
+//   button: ReactNode;
+// };
 
 const CTABanner = () => (
   <div className="text-center flex flex-col p-4 sm:text-right sm:flex-row sm:items-center sm:justify-between sm:p-12 rounded-md">

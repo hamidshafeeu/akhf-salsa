@@ -23,7 +23,7 @@ const TeamCard = (props: TeamCardProps) => {
           </p>
           <div className="flex items-center justify-center space-x-3">
             <a
-              href="/"
+              href="/none"
               className="text-white transition-colors duration-300 hover:text-teal-accent-400"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -31,7 +31,7 @@ const TeamCard = (props: TeamCardProps) => {
               </svg>
             </a>
             <a
-              href="/"
+              href="/none"
               className="text-white transition-colors duration-300 hover:text-teal-accent-400"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
